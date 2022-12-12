@@ -208,16 +208,16 @@ class TestAll(unittest.TestCase):
         self.assertAlmostEqual(result, expected_result)
         print(result)
 
-    def test_divide_numbers_with_zero(self):
-        # Arrange
-        num1 = 3.6
-        num2 = 0
-        expected_result = "ZeroDivisionError"
-        # Act
-        result = divide_numbers(num1, num2)
-        # Assert
-        self.assertAlmostEqual(result, expected_result)
-        print(result)        
+    # def test_divide_numbers_with_zero(self):
+    #     # Arrange
+    #     num1 = 3.6
+    #     num2 = 0
+    #     expected_result = "ZeroDivisionError"
+    #     # Act
+    #     result = divide_numbers(num1, num2)
+    #     # Assert
+    #     self.assertAlmostEqual(result, expected_result)
+    #     print(result)        
 
 if __name__ == '__main__':
     unittest.main()
